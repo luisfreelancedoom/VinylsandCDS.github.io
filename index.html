@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tienda Online</title>
+  </head>
+  <body>
+
+    <header class="main-header">
+      <div class="container container__flex">
+        <div class="main-header__container">
+          <h1 class="main-header__title">Vinyls and CDS</h1>
+          <span class="icon-menu" id="btn-menu"><i class="fa-solid fa-bars"></i></span>
+          <nav class="main-nav" id="main-nav">
+            <ul class="menu">
+              <li class="menu__item">
+                <a href="index.html" class="menu__link">HOME</a>
+              </li>
+              <li class="menu__item"><a href="nosotros.html"
+                 class="menu__link">SHOP</a></li>
+              <li class="menu__item"><a href=""
+                 class="menu__link">GENEROS</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">EVENTOS</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">CONTACTO</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+          
+        <div class="main-header__container">
+          <span class="main-header__txt">Necesito ayuda</span>
+          <p class="main-header__txt">
+            <i class="fa-solid fa-phone"></i> Llama 7298563488
+          </p>
+        </div>
+        <div class="main-header__container">
+          <a href="" class="main-header__link"><i class="fa-solid fa-user"></i></a>
+          <a href="" class="main-header__btn"
+            >Mi carrito  <i class="fa-sharp fa-solid fa-cart-shopping"></i
+          ></a>
+          <input
+            type="search"
+            class="main-header__input"
+            placeholder="Buscar productos"
+          />
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </header>
+    <div>
+    <div class="container-slider">
+      <div class="slider" id="slider">
+        <div class="slider__section">
+          <img src="imagenes/imgpx/img2.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">La mejor experiencia</h2>
+            <p class="slider__txt">Garantía de seguridad</p>
+            <a href="" class="btn-shop">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="imagenes/imgpx/img1.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Los mejores precios</h2>
+            <p class="slider__txt">Hasta el 30% de descuento</p>
+            <a href="" class="btn-shop">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="imagenes/imgpx/img3.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">El mejor servicio de entrega</h2>
+            <p class="slider__txt">Envio hasta tu casa</p>
+            <a href="" class="btn-shop">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="imagenes/imgpx/img4.jpg" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Tu musica favorita</h2>
+            <p class="slider__txt">Los mejores generos</p>
+            <a href="" class="btn-shop">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+      <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    </div>
+    <main class="main">
+      <div class="container">
+        <h2 class="main-title">Nuevos discos para ti</h2>
+        <section class="container-products">
+          <div class="product">
+            <img
+              src="/imagenes/VINILOS/Madvillainy vinilo.jpg"
+              alt=""
+              class="product__img"
+            />
+            <div class="product__description">
+              <h3 class="product__title">Madvillainy</h3>
+              <h4 class="product__subtitle">Madvillainy</h4>
+              <span class="product__price">$530</span>
+            </div>
+            <i class="product__icon fa-sharp fa-solid fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img
+              src="imagenes/VINILOS/My beautiful dar twisted vinilo.jpg"
+              alt=""
+              class="product__img"
+            />
+            <div class="product__description">
+              <h3 class="product__title">My beautiful dark twisted fantasy</h3>
+              <h4 class="product__subtitle">Kanye West</h4>
+              <span class="product__price">$550</span>
+            </div>
+            <i class="product__icon fa-sharp fa-solid fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img
+              src="imagenes/Dummy portishead.jpg"
+              alt=""
+              class="product__img"
+            />
+            <div class="product__description">
+              <h3 class="product__title">Dummy</h3>
+              <h4 class="product__subtitle">Portishead</h4>
+              <span class="product__price">$600</span>
+            </div>
+            <i class="product__icon fa-sharp fa-solid fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img
+              src="imagenes/VINILOS/operation doomsday vinilo.jpg"
+              alt=""
+              class="product__img"
+            />
+            <div class="product__description">
+              <h3 class="product__title">Operation doomsday</h3>
+              <h4 class="product__subtitle">MF Doom</h4>
+              <span class="product__price">$480</span>
+            </div>
+            <i class="product__icon fa-sharp fa-solid fa-cart-plus"></i>
+          </div>
+        </section>
+      
+  
+       <section class="container__testimonials">
+   <h2 class="section__title">Testimonios</h2>
+   <h3 class="testimonials__txt">Paola</h3>
+   <p class="testimonial__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique mollitia consectetur magnam aspernatur ipsum nobis voluptatibus maiores sapiente doloribus. Consectetur eum in nostrum excepturi id nam nihil minus mollitia laudantium!</p>
+   
+
+       <section/>
+      <div class="container-editor">
+        <div class="editor__item">
+          <img src="imagenes/imgpx/img6.jpg" alt="" class="editor__img" />
+          <p class="editor__circle">BUSCA TU ESTILO NOW</p>
+        </div>
+        <div class="editor__item">
+          <img src="imagenes/imgpx/img5.jpg" alt="" class="editor__img" />
+          <p class="editor__circle">BUSCA TU ESTILO NOW</p>
+        </div>
+      </div>
+
+      <section class="container-tips">
+     <div class="tip">
+      <i class="fa-sharp fa-regular fa-hand"></i>
+      <h2 class="tip__title">Garantía de 
+        satisfacción </h2>
+      <p class="tip__txt">Contamos con los mejores servicios y podemos garantizar tu satisfacción</p>
+      <a href="" class="btn-shop">SHOP NOW</a>
+     </div>
+     <div class="tip">
+      <i class="fa-solid fa-rocket"></i>
+      <h2 class="tip__title">Envio Rápido</h2>
+      <p class="tip__txt">Los envios más rapidos del mercado</p>
+      <a href="" class="btn-shop">SHOP NOW</a>
+     </div>
+     <div class="tip">
+      <i class="fa-solid fa-tag"></i>
+      <h2 class="tip__title">Mayor ahorro</h2>
+      <p class="tip__txt">Solo los mejores precios</p>
+      <a href="" class="btn-shop">SHOP NOW</a>
+     </div>
+
+      </section>
+
+  </div>
+    </main>
+    <footer class="main-footer">
+      <div class="footer__section">
+        <h2 class="footer__title">Acerca de Nosotros</h2>
+        <p class="footer__txt">Somos una empresa dedicada a la venta de Discos
+          y eventos musicales,
+          buscamos revivir la cuktura musical</p>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Locación :</h2>
+        <p class="footer__txt">Estamos ubicados en Toluca Centro, México,
+          calle: Galeana</p>
+        <h2 class="footer__title">Contacto</h2>
+        <p class="footer__txt">Phone: +52 7294687345</p>
+        <p class="footer__txt">Email : info@example.com</p>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Enlaces rapidos</h2>
+        <a href="" class="footer__link">NOSOTROS</a>
+         <a href="" class="footer__link">SHOP</a>
+        <a href="" class="footer__link">GENEROS</a>
+        <a href="" class="footer__link">EVENTOS</a>
+        <a href="" class="footer__link">CONTACTOS</a>
+       
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Sign up for your offers</h2>
+        <p class="footer__txt">Al suscribirse a nuestra lista de correo, siempre recibirá nuestras últimas noticias y actualizaciones..</p>
+        <input type="email" class="footer__input" placeholder="Enter your email">
+      </div>
+      <p class="copy">© 2023 Vinyls and CDS. All Rights Reserved | Design by FreelancerDoom</p>
+    </footer>
+    <script src="menu.js"></script>
+    <script src="slider.js"></script>
+  
+  </body>
+</html>
